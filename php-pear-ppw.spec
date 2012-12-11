@@ -69,3 +69,17 @@ fi
 %{_datadir}/pear/PPW
 %{_datadir}/pear/packages/ppw.xml
 
+
+
+%changelog
+* Fri Dec 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.4-2mdv2012.0
++ Revision: 742324
+- fix major breakage by careless packager
+
+* Wed Nov 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.4-1
++ Revision: 730905
+- import php-pear-ppw
+
+
+* Wed Nov 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.4-1mdv2010.2
+- initial Mandriva package
