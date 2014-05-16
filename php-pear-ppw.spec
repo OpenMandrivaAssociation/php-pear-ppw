@@ -1,6 +1,8 @@
 %define  upstream_name ppw
+%define __noautoreq /usr/bin/php
 
 Summary:	PHP Project Wizard
+
 Name:		php-pear-%{upstream_name}
 Version:	1.0.4
 Release:	3
@@ -49,22 +51,9 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 
 %files
-%defattr(-,root,root)
 %{_bindir}/ppw
 %{_datadir}/pear/PPW
 %{_datadir}/pear/packages/ppw.xml
 
 
 
-%changelog
-* Fri Dec 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.4-2mdv2012.0
-+ Revision: 742324
-- fix major breakage by careless packager
-
-* Wed Nov 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.4-1
-+ Revision: 730905
-- import php-pear-ppw
-
-
-* Wed Nov 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.4-1mdv2010.2
-- initial Mandriva package
