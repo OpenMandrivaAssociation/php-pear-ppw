@@ -5,7 +5,7 @@ Summary:	PHP Project Wizard
 
 Name:		php-pear-%{upstream_name}
 Version:	1.0.4
-Release:	3
+Release:	4
 License:	BSD
 Group:		Development/PHP
 URL:		http://www.phpunit.de/
